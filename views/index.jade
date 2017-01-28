@@ -1,0 +1,39 @@
+extends layout
+
+block content
+
+    .container
+        .navbar
+            .navbar-inner
+                h1= title
+            
+        //.row
+        #cpanel 
+            h3 Green Taxi Trip Records
+            h5 Payment Type
+            button(id='circlechart-button') Show Payment Method
+            button(id='barlogarithmicchart-button') Show Passenger Spend
+            button(id='scatterchart-button') Show Scatter
+            button(id='bubblechart-button') Show Bubble
+            h5 Total Amount
+            button(id='histogramscatterchart-button') Show Histogram Scatter
+            button(id='timeserieschart-button') Show Amount Total
+
+        // Wrapper
+        #wrapper
+            #userInfo
+
+            // /ROW
+            //.row
+            #userList
+                // Chart Containers
+                #circlechart(style='display: none')
+                #barlogarithmicchart(style='display: none')
+                #scatterchart(style='display: none')
+                #histogramscatterchart(style='display: none')
+                #bubblechart(style='display: none')
+                #timeserieschart(style='display: none')
+            // /Chart Containers
+        // /ROW
+        // /WRAPPER
+    // /CONTAINER
