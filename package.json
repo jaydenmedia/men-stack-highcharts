@@ -1,0 +1,36 @@
+{
+    "name": "NYTaxi7",
+    "version": "0.0.8",
+    "Description": "An interactive visualisation of the New York Taxi dataset (June 2016, green taxis only)",
+    "Keywords": [
+        "Data Visualisation", 
+        "MongoDB", 
+        "NodeJS", 
+        "Express", 
+        "Highcharts",
+        "http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml",
+        "http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/",
+        "https://webapplog.com/tutorial-node-js-and-mongodb-json-rest-api-server-with-mongoskin-and-express-js/",
+        "http://thejackalofjavascript.com/mapreduce-in-mongodb/",
+        "https://www.tutorialspoint.com/highcharts"
+        ],
+    "private": true,
+    "scripts": {
+        "start": "node bin\/www"
+    },
+    "author": "Josh Smith",
+    "license": "BSD-2-Clause",
+    "dependencies": {
+        "body-parser": "~1.15.1",
+        "debug": "~2.2.0",
+        "express": "~4.13.4",
+        "jade": "~1.11.0",
+        "morgan": "~1.7.0",
+        "serve-favicon": "~2.3.0",
+        "mongodb": "^2.2.11",
+        "monk": "^3.1.3",
+        "bootstrap": "^3.0.0",
+        "jquery": "^3.1.1",
+        "highcharts": "^5.0.0"
+    }
+}
