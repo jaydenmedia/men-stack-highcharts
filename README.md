@@ -1,5 +1,5 @@
 #Simple RESTful Data Visualisation Web App with Node.js, Express, MongoDB, JQuery, and Highcharts.js
-A complete project for large data visualisation using AJAX.  
+A complete project for large data visualisation of the New York Taxi data set using AJAX.  
 Charting data structures can be reconfigured to suit other projects.
 
 ## Quickstart
@@ -18,7 +18,6 @@ Josh Smith, 2016
 * Bootstrap is optional for responsive layout.
 
 ## Issues
-* Map / Reduce API not working with the current setup.
 * Express body-parser does not appear to have any bearing on pages served.
 
 ## Improvements
